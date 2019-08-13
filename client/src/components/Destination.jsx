@@ -16,7 +16,7 @@ class Destination extends React.Component {
 	}
 
 	componentDidMount() {
-		fetch(require(`../../../static/markdown/${this.props.match.params.textFile}`))
+		fetch(require(`../static/markdown/${this.props.match.params.textFile}`))
 			.then(response => {
 				console.log('response');
 				console.log(response);

@@ -1,5 +1,5 @@
 import React from 'react';
-import expenseBanner from '../../../static/images/expenseBanner2.jpg';
+import expenseBanner from '../static/images/expenseBanner2.jpg';
 import { readTextFile } from '../utils';
 
 class Expenses extends React.Component {

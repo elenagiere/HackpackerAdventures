@@ -5,7 +5,7 @@ const healthData = [
 		date: 'June 2019',
 		imgName: 'fruitveggie.jpg',
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
-		textFile: 'lorem.txt',
+		textFile: 'lorem.md',
 		summaryText: 'How eat well while traveling'
 	},
 	{
@@ -14,7 +14,7 @@ const healthData = [
 		date: 'January 2019',
 		imgName: 'yosemiteHike.jpg',
 		photoUrls: ['glassBeach.jpg', 'glassBeach.jpg', 'glassBeach.jpg'],
-		textFile: 'lorem.txt',
+		textFile: 'lorem.md',
 		summaryText: 'How to squeeze in cardio on the go'
 	}
 ];

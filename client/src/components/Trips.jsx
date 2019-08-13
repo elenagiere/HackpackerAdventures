@@ -2,7 +2,7 @@ import React from 'react';
 import Posts from './Posts.jsx';
 import Banner from './Banner.jsx';
 // import { imagePath } from '../Constants.js';
-import tripsBanner from '../../../static/images/NZQueens.jpg';
+import tripsBanner from '../static/images/NZQueens.jpg';
 // import MainHeader from './MainHeader.jsx';
 
 export default function Trips () {

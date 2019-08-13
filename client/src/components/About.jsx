@@ -1,7 +1,7 @@
 import React from 'react';
 // import Banner from './Banner.jsx';
 // import { imagePath, textPath } from '../Constants.js';
-import aboutBanner from '../../../static/images/LakeTahoeUs.jpg';
+import aboutBanner from '../static/images/LakeTahoeUs.jpg';
 import { readTextFile } from '../utils';
 
 class About extends React.Component {

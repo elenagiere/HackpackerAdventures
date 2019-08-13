@@ -6,7 +6,7 @@ import Header from './Header.jsx';
 import LongCard from './LongCard.jsx';
 // import Modal from './Modal.jsx';
 import EmailPrompt from './EmailPrompt.jsx';
-import landingPageImage from '../../../static/images/philippinesWithText.jpg';
+import landingPageImage from '../static/images/philippinesWithText.jpg';
 // import { FaInstagram, FaFacebook, FaYoutube, FaMapPin } from 'react-icons/fa';
 
 class LandingPage extends React.Component {

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 // import { imagePath } from '../Constants.js';
-import aboutBanner from '../../../static/images/LakeTahoeUs.jpg';
+import aboutBanner from '../static/images/LakeTahoeUs.jpg';
 
 class LongCard extends React.Component {
 
