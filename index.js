@@ -3,9 +3,10 @@ const path = require('path');
 let bodyParser = require('body-parser');
 const Mailchimp = require('mailchimp-api-v3');
 
-require('dotenv').config();
-var mc_api_key = process.env.MAILCHIMP_API_KEY;
-var list_id = process.env.MAILING_LIST_ID;
+if (process.env.NODE_ENV !== 'production') require('dotenv').config();
+
+var mc_api_key = process.env.REACT_APP_MAILCHIMP_API_KEY;
+var list_id = process.env.REACT_APP_MAILING_LIST_ID;
 
 const app = express();
 
