@@ -18,16 +18,16 @@ class Destination extends React.Component {
 	componentDidMount() {
 		fetch(require(`../static/markdown/${this.props.match.params.textFile}`))
 			.then(response => {
-				console.log('response');
+				console.log('markdown fetch response');
 				console.log(response);
 				return response.text();
 			})
 			.then(text => {
-				console.log(text);
 				this.setState({
 					markdown: text,
 				})
 			}).catch((err) => {
+				console.log('markdown fetch error');
 				console.log(err);
 			});
 	}
@@ -39,9 +39,6 @@ class Destination extends React.Component {
 
 	render() {
 		const { title, date, imgName, photoUrls, videoId } = this.props.match.params;
-		console.log(this.props.match.params);
-		console.log('imgName');
-		console.log(imgName);
 		// const photoList = () =>
 		// photoUrls.split(',').map((url, i) => (<img key={i} className="sub-section" src={`${imagePath}/${url}`} alt="img" />));
 
@@ -53,7 +50,6 @@ class Destination extends React.Component {
 			}
 		};
 
-		console.log('videoId: ', videoId);
 		const youtubeVideo = () => (videoId !== 'null' && videoId !== 'undefined') ? (
 			<div className="youtube-wrapper">
 				<YouTube

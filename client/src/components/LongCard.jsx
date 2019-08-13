@@ -8,8 +8,6 @@ class LongCard extends React.Component {
 
 	render () {
 		const { title, imgName, summaryText } = this.props;
-		console.log('single post props');
-		console.log(this.props);
 
 		return (
             <div id="long-card">

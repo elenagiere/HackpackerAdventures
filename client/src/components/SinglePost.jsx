@@ -7,8 +7,6 @@ class SinglePost extends React.Component {
 
 	render () {
 		const { title, date, imgName, photoUrls, textFile, summaryText, videoId } = this.props;
-		console.log('single post props');
-		console.log(this.props);
 
 		return (
 			<Link id="single-post" to={`/destination/${title}/${date}/${imgName}/${photoUrls}/${textFile}/${summaryText}/${videoId}`}>

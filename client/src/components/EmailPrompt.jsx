@@ -10,12 +10,21 @@ class EmailPrompt extends React.Component {
             email: '',
             alertType: '',
             isLoading: false,
-            error: null
+            error: null,
+            startTimer: false,
         };
 
         this.handleNameChange = this.handleNameChange.bind(this);
         this.handleEmailChange = this.handleEmailChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
+    }
+
+    startAlertTimer() {
+        setTimeout(function () {
+            this.setState({
+                alertType: ''
+            });
+        }.bind(this), 8000);
     }
 
     handleNameChange(event) {
@@ -33,28 +42,27 @@ class EmailPrompt extends React.Component {
         });
 
         return fetch('/api/add-subscriber', {
-            // mode: 'no-cors',
             method: 'POST',
             headers: {
-                // 'Accept': 'application/json',
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
                 email_address: this.state.email,
-                status : 'subscribed',
+                status: 'subscribed',
                 FNAME: this.state.fname
             })
         }).then((res) => {
+            this.startAlertTimer.apply(this);
             return res.json();
         }).then((resJson) => {
             if (resJson.statusCode && resJson.statusCode === 200) {
-                console.log('component success');
+                console.log('email submit success');
                 this.setState({
                     alertType: 'success',
                     isLoading: false
                 });
             } else {
-                console.log('component failure');
+                console.log('email submit failure');
                 const err = resJson;
                 this.setState({
                     alertType: 'error',
@@ -66,7 +74,18 @@ class EmailPrompt extends React.Component {
                     }
                 });
             }
-        });
+        }).catch((err) => {
+            console.log('email submit catch failure');
+            this.setState({
+                alertType: 'error',
+                isLoading: false,
+                error: {
+                    code: err.status,
+                    type: err.title,
+                    details: err.detail
+                }
+            });
+        })
     }
 
     render() {

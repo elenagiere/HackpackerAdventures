@@ -37,8 +37,8 @@ class Modal extends React.Component {
     }
     
     addEmail () {
-        console.log('addEmail');
-        const key = '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';
+        // console.log('addEmail');
+        const key = '';
         // const parameters = { "apiKey": key, "timeout": 5000 };	//Optional parameter: Timeout in MS
         // const sendinObj = new sendinblue(parameters);
     

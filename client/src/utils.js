@@ -8,7 +8,6 @@ export const readTextFile = (textFile, callback) => {
     rawFile.onreadystatechange = () => {
         if (rawFile.readyState === 4) {
             if (rawFile.status === 200 || rawFile.status === 0) {
-                console.log(rawFile.responseText);
                 callback(rawFile.responseText);
             }
         }
