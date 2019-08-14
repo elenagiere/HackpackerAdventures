@@ -8,7 +8,7 @@ export default function Health() {
     const singlePosts = () =>
         healthData.map(aPost => {
             console.log(aPost.title);
-            return (<SinglePost key={aPost.id} title={aPost.title} date={aPost.date} imgName={aPost.imgName} photoUrls={aPost.photoUrls} textFile={aPost.textFile} summaryText={aPost.summaryText} />);
+            return (<SinglePost key={aPost.id} id={aPost.id} title={aPost.title} date={aPost.date} imgName={aPost.imgName} photoUrls={aPost.photoUrls} textFile={aPost.textFile} summaryText={aPost.summaryText} />);
         });
 
     return (

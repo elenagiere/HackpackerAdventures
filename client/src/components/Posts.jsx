@@ -8,7 +8,7 @@ export default function Posts () {
 		tripData.map(aPost => {
 			console.log(aPost.title);
 			console.log(aPost.videoId);
-			return (<SinglePost key={aPost.id} title={aPost.title} date={aPost.date} imgName={aPost.imgName} photoUrls={aPost.photoUrls} textFile={aPost.textFile} summaryText={aPost.summaryText} videoId={aPost.videoId} />);
+			return (<SinglePost key={aPost.id} id={aPost.id} title={aPost.title} date={aPost.date} imgName={aPost.imgName} photoUrls={aPost.photoUrls} textFile={aPost.textFile} summaryText={aPost.summaryText} videoId={aPost.videoId} />);
 		});
 
 	return (

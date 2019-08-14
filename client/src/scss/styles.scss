@@ -363,7 +363,7 @@ button {
 .sub-page {
   display: block;
   text-align: center;
-  margin: 0 auto 4rem;
+  margin: 0 auto 3rem;
   padding: 0 0 0.5rem 0;
 
   @media (max-width: $tablet-view) {
@@ -939,6 +939,14 @@ button {
     margin: auto;
     padding: 0 3rem;
 
+    .title-row {
+      display: flex;
+      .disqus-comment-count {
+        margin-left: auto;
+        margin-top: 3rem;
+      }
+    }
+
     h2 {
       margin-top: 3rem;
     }
@@ -949,6 +957,7 @@ button {
 
     .summary-section,
     .expenses-section {
+
       .clear-box {
         float: left;
         width: 0px;
@@ -966,6 +975,10 @@ button {
         }
       }
     }
+  }
+
+  #disqus_thread {
+    margin-top: 3rem;
   }
 
   .category-icons {

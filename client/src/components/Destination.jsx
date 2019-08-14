@@ -3,6 +3,7 @@ import Banner from './Banner.jsx';
 import { publicImagePath } from '../Constants.js';
 import YouTube from 'react-youtube';
 import ReactMarkdown from 'react-markdown';
+import Disqus from 'disqus-react';
 
 class Destination extends React.Component {
 
@@ -38,9 +39,18 @@ class Destination extends React.Component {
 	}
 
 	render() {
-		const { title, date, imgName, photoUrls, videoId } = this.props.match.params;
+		const { id, title, date, imgName, photoUrls, videoId } = this.props.match.params;
 		// const photoList = () =>
 		// photoUrls.split(',').map((url, i) => (<img key={i} className="sub-section" src={`${imagePath}/${url}`} alt="img" />));
+
+		// Disqus comments
+		const disqusShortname = 'hackpackeradventures';
+		const disqusConfig = {
+			url: `https://www.hackpackeradventures.com/${this.props.location.pathname}`,
+			identifier: `hackpackeradventures_${id}`,
+			title: title,
+		};
+
 
 		const videoOpts = {
 			height: '390',
@@ -67,7 +77,12 @@ class Destination extends React.Component {
 				<Banner imgName={imgName} altTag={title} />
 				<div className="content">
 					<div className="destination-content">
-						<h1>{title}</h1>
+						<div className="title-row">
+							<h1>{title}</h1>
+							{/* <Disqus.CommentCount shortname={disqusShortname} config={disqusConfig}>
+                    			Comments
+                			</Disqus.CommentCount> */}
+						</div>
 						<p className="post-date">{date}</p>
 						<div className="summary-section">
 							<div className="clear-box"></div>
@@ -86,6 +101,7 @@ class Destination extends React.Component {
 								</span>
 							</div>
 						</div> */}
+						<Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
 					</div>
 				</div>
 			</div>
