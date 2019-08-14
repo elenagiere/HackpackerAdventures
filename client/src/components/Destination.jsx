@@ -80,13 +80,9 @@ class Destination extends React.Component {
 				<Banner imgName={imgName} altTag={title} />
 				<div className="content">
 					<div className="destination-content">
-						<div className="title-row">
-							<h1>{title}</h1>
-							{/* <Disqus.CommentCount shortname={disqusShortname} config={disqusConfig}>
-                    			Comments
-                			</Disqus.CommentCount> */}
-						</div>
+						<h1>{title}</h1>
 						<p className="post-date">{date}</p>
+						<Disqus.CommentCount shortname={disqusShortname} config={disqusConfig}></Disqus.CommentCount>
 						<div className="summary-section">
 							<div className="clear-box"></div>
 							<img className="spreadsheet" src={`${publicImagePath}/nzExpenses.png`} alt="breakdown of expenses" />

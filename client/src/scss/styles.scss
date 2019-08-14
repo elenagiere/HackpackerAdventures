@@ -939,24 +939,17 @@ button {
     margin: auto;
     padding: 0 3rem;
 
-    .title-row {
-      display: flex;
-      .disqus-comment-count {
-        margin-left: auto;
-        margin-top: 3rem;
-      }
-    }
-
     h2 {
       margin-top: 3rem;
     }
 
     .post-date {
-      margin: 0.5rem 0 2rem;
+      margin: 0.5rem 0;
     }
 
     .summary-section,
     .expenses-section {
+      margin-top: 2rem;
 
       .clear-box {
         float: left;
