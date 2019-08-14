@@ -137,43 +137,43 @@ button {
   }
 }
 
-.email-prompt-modal {
-  box-shadow: 2px 2px 6px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 0.5rem;
-  width: 60vw;
-  max-width: 600px;
-  margin: auto;
-  background: #092c46;
-  padding: 2rem;
-  color: white;
+// .email-prompt-modal {
+//   box-shadow: 2px 2px 6px 4px rgba(0, 0, 0, 0.25);
+//   border-radius: 0.5rem;
+//   width: 60vw;
+//   max-width: 600px;
+//   margin: auto;
+//   background: #092c46;
+//   padding: 2rem;
+//   color: white;
 
-  @media (max-width: $mobile-view) {
-    width: 100%;
-    padding: 0.5rem;
-  }
+//   @media (max-width: $mobile-view) {
+//     width: 100%;
+//     padding: 0.5rem;
+//   }
 
-  .modal-header {
-    margin-bottom: 1rem;
-    padding: 0;
-    span {
-      font-size: 20px;
-    }
+//   .modal-header {
+//     margin-bottom: 1rem;
+//     padding: 0;
+//     span {
+//       font-size: 20px;
+//     }
 
-    .icon-button {
-      float: right;
-    }
-  }
+//     .icon-button {
+//       float: right;
+//     }
+//   }
 
-  .modal-content {
-    h2 {
-      margin: 1.5rem 0;
-    }
+//   .modal-content {
+//     h2 {
+//       margin: 1.5rem 0;
+//     }
 
-    p {
-      margin: 2rem;
-    }
-  }
-}
+//     p {
+//       margin: 2rem;
+//     }
+//   }
+// }
 
 // Email Prompt
 // #SignupForm_0 {
@@ -192,11 +192,10 @@ button {
 #email-prompt.form-row {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     margin-top: 10px;
     background: $light-blue;
   
-    @media (max-width: 600px) {
+    @media (max-width: 645px) {
       flex-direction: column;
       padding-bottom: 1rem;
     }
@@ -205,15 +204,21 @@ button {
       padding: 1.5rem;
       font-size: 20px;
   
-      @media (max-width: 865px) {
+      @media (max-width: 890px) {
         display: none;
       }
     }
+
+    .email-group {
+      flex: 0 1 300px;
+    }
   
-    @media (max-width: 600px) {
-      .mc-field-group,
-      .clear {
+    @media (max-width: 645px) {
+      .field-group,
+      .email-group,
+      .submit-group {
         margin: auto;
+        flex: auto;
       }
     
     }
@@ -223,15 +228,15 @@ button {
       border-radius: 0.5rem;
       margin: 1rem 1rem 1.3rem 1rem;
   
-      @media (max-width: 600px) {
+      @media (max-width: 645px) {
         margin: 1rem auto 0;
         width: 80vw;
       }
   
       &.form-item--email {
-        width: 200px;
+        width: -webkit-fill-available;
   
-        @media (max-width: 600px) {
+        @media (max-width: 645px) {
           width: 80vw;
         }
       }

@@ -93,13 +93,13 @@ class EmailPrompt extends React.Component {
             <div>
                 <form id="email-prompt" className="form-row" onSubmit={this.handleSubmit}>
                     <span className="subscribe-title">Join Our Community</span>
-                    <div>
+                    <div className="field-group">
                         <input type="text" name="FNAME" className="form-item" placeholder="Name" id="FNAME" value={this.state.fname} onChange={this.handleNameChange}></input>
                     </div>
-                    <div>
-                        <input type="email" name="EMAIL" placeholder="email address" value={this.state.email} onChange={this.handleEmailChange} className="required email form-item form-item--email" id="email_address" />
+                    <div className="field-group email-group">
+                        <input type="email" name="EMAIL" placeholder="Email address" value={this.state.email} onChange={this.handleEmailChange} className="required email form-item form-item--email" id="email_address" />
                     </div>
-                    <div className="clear">
+                    <div className="submit-group">
                         <button type="submit" value="Subscribe" name="subscribe" disabled={this.state.isLoading} className="button form-item subscribe-button">
                             {this.state.isLoading ? <div className="loading-ellipsis-wrapper"><ReactAnimatedEllipsis /></div> : <p>Subscribe</p>}
                         </button>
