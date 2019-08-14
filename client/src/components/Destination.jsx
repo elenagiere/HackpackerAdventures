@@ -47,7 +47,7 @@ class Destination extends React.Component {
 		const disqusShortname = 'hackpackeradventures';
 		const disqusConfig = {
 			url: `https://www.hackpackeradventures.com/${this.props.location.pathname}`,
-			identifier: `disqus_id_${id}`,
+			identifier: `disqusId-${id}`,
 			title: title,
 		};
 
