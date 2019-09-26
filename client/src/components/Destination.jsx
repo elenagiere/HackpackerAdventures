@@ -39,7 +39,8 @@ class Destination extends React.Component {
 	}
 
 	render() {
-		const { id, title, date, imgName, photoUrls, videoId } = this.props.match.params;
+		const { id, title, date, imgName, photoUrls, expenseImage, videoId } = this.props.match.params;
+		console.log(expenseImage);
 		// const photoList = () =>
 		// photoUrls.split(',').map((url, i) => (<img key={i} className="sub-section" src={`${imagePath}/${url}`} alt="img" />));
 
@@ -85,7 +86,7 @@ class Destination extends React.Component {
 						<Disqus.CommentCount shortname={disqusShortname} config={disqusConfig}></Disqus.CommentCount>
 						<div className="summary-section">
 							<div className="clear-box"></div>
-							<img className="spreadsheet" src={`${publicImagePath}/nzExpenses.png`} alt="breakdown of expenses" />
+							<img className="spreadsheet" src={`${publicImagePath}/expenses/${expenseImage}`} alt="breakdown of expenses" />
 							<div className="trip-text">
 								<ReactMarkdown source={this.state.markdown} escapeHtml={false} />
 							</div>

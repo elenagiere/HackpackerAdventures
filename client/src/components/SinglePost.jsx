@@ -6,10 +6,10 @@ import { publicImagePath } from '../Constants.js';
 class SinglePost extends React.Component {
 
 	render () {
-		const { id, title, date, imgName, photoUrls, textFile, summaryText, videoId } = this.props;
+		const { id, title, date, imgName, photoUrls, textFile, summaryText, expenseImage, videoId } = this.props;
 
 		return (
-			<Link id="single-post" to={`/destination/${id}/${title}/${date}/${imgName}/${photoUrls}/${textFile}/${summaryText}/${videoId}`}>
+			<Link id="single-post" to={`/destination/${id}/${title}/${date}/${imgName}/${photoUrls}/${textFile}/${summaryText}/${expenseImage}/${videoId}`}>
 				{/* <img src={publicImagePath/${imgName}`} alt={title} className="hover" />; */}
 				<img src={`${publicImagePath}/${imgName}`} alt={title} className="hover" />
 				<div className="text">
@@ -31,5 +31,6 @@ SinglePost.propTypes = {
 	photoUrls: PropTypes.arrayOf(PropTypes.string).isRequired,
 	textFile: PropTypes.string.isRequired,
 	summaryText: PropTypes.string.isRequired,
+	expenseImage: PropTypes.string,
 	videoId: PropTypes.string
 };

@@ -10,6 +10,7 @@
     "react": "^16.9.0",
     "react-animated-ellipsis": "^0.3.0",
     "react-dom": "^16.9.0",
+    "react-facebook": "^8.0.4",
     "react-icons": "^3.6.1",
     "react-markdown": "^4.1.0",
     "react-responsive-modal": "^3.6.0",
