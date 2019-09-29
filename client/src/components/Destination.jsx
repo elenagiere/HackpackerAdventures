@@ -39,7 +39,7 @@ class Destination extends React.Component {
 	}
 
 	render() {
-		const { id, title, date, imgName, photoUrls, expenseImage, videoId } = this.props.match.params;
+		const { id, title, date, imgName, photoUrls, expenseImage, videoId, enableComments } = this.props.match.params;
 		console.log(expenseImage);
 		// const photoList = () =>
 		// photoUrls.split(',').map((url, i) => (<img key={i} className="sub-section" src={`${imagePath}/${url}`} alt="img" />));
@@ -76,6 +76,10 @@ class Destination extends React.Component {
 			</div>
 		) : null;
 
+		const expenseGraphic = () => (expenseImage !== 'null' && expenseImage !== 'undefined') ? (
+			<img className="spreadsheet" src={`${publicImagePath}/expenses/${expenseImage}`} alt="breakdown of expenses" />
+		) : null;
+
 		return (
 			<div id="destination" className="sub-page">
 				<Banner imgName={imgName} altTag={title} />
@@ -83,10 +87,10 @@ class Destination extends React.Component {
 					<div className="destination-content">
 						<h1>{title}</h1>
 						<p className="post-date">{date}</p>
-						<Disqus.CommentCount shortname={disqusShortname} config={disqusConfig}></Disqus.CommentCount>
+						{enableComments ? <Disqus.CommentCount shortname={disqusShortname} config={disqusConfig}></Disqus.CommentCount> : null}
 						<div className="summary-section">
 							<div className="clear-box"></div>
-							<img className="spreadsheet" src={`${publicImagePath}/expenses/${expenseImage}`} alt="breakdown of expenses" />
+							{expenseGraphic()}
 							<div className="trip-text">
 								<ReactMarkdown source={this.state.markdown} escapeHtml={false} />
 							</div>
@@ -101,7 +105,7 @@ class Destination extends React.Component {
 								</span>
 							</div>
 						</div> */}
-						<Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
+						{enableComments ? <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} /> : null}
 					</div>
 				</div>
 			</div>

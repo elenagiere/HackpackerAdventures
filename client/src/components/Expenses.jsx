@@ -1,6 +1,6 @@
 import React from 'react';
 import expenseBanner from '../static/images/expenseBanner2.jpg';
-import { readTextFile } from '../utils';
+import ReactMarkdown from 'react-markdown';
 
 class Expenses extends React.Component {
 
@@ -8,16 +8,26 @@ class Expenses extends React.Component {
 		super(props);
 
 		this.state = {
-			text: ''
-		};
+			text: '',
+			markdown: null,
+		}
 	}
 
-	componentDidMount () {
-		readTextFile('lorem.txt', (resp) => {
-			this.setState({
-					text: resp
+	componentDidMount() {
+		fetch(require(`../static/markdown/comingsoon.md`))
+			.then(response => {
+				console.log('markdown fetch response');
+				console.log(response);
+				return response.text();
+			})
+			.then(text => {
+				this.setState({
+					markdown: text,
+				})
+			}).catch((err) => {
+				console.log('markdown fetch error');
+				console.log(err);
 			});
-		});
 	}
 
 	render () {
@@ -30,9 +40,7 @@ class Expenses extends React.Component {
 					<h2 className="cards-header">Expenses</h2>
 					<div className="summary-section">
 						<div className="text">
-							{this.state.text.split('\n').map((item, key) => {
-								return <span key={key}>{item}<br/></span>
-							})}
+							<ReactMarkdown source={this.state.markdown} escapeHtml={false} />
 						</div>
 					</div>
 				</div>

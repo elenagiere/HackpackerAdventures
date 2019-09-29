@@ -42,7 +42,7 @@ class LandingPage extends React.Component {
 				{/* <EmailPrompt></EmailPrompt> */}
 				<Header></Header>
 				{/* {this.state.isModalOpen ? <Modal toggle={this.onToggle.bind(this)}></Modal> : null } */}
-				<LongCard title="About Us" summaryText="Our names are Luke and Elena. We are about to begin a year long adventure traveling through Central and South America as well as Africa!" imgName="LakeTahoeUs.jpg"></LongCard>
+				<LongCard title="About Us" summaryText="Hello, beautiful people! My name is Luke and this is my incredible girlfriend, Elena!" imgName="LakeTahoeUs.jpg"></LongCard>
 				{/* list the latest blog post */}
 			</div>
 		);

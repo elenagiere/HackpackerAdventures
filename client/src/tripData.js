@@ -8,7 +8,8 @@ const tripData = [
 		textFile: 'vietnam2018.md',
 		summaryText: 'Hiked around Sapa and sunbathed in Halong Bay',
 		expenseImage: 'nzExpenses.png',
-		videoId: 'A3K3jh7cK4k'
+		videoId: 'A3K3jh7cK4k',
+		enableComments: true
 	},
 	{
 		id: 2,
@@ -19,7 +20,8 @@ const tripData = [
 		textFile: 'hawaii2019.md',
 		summaryText: 'Camped under the milkyway listening to the waves',
 		expenseImage: 'nzExpenses.png',
-		videoId: 'Ty6G2P732NY'
+		videoId: 'Ty6G2P732NY',
+		enableComments: true
 	},
 	{
 		id: 3,
@@ -30,7 +32,8 @@ const tripData = [
 		textFile: 'glacier2019.md',
 		summaryText: 'Set out to find the most coolest lakes',
 		expenseImage: 'glacierExpenses.png',
-		videoId: null
+		videoId: null,
+		enableComments: true
 	},
 		{
 		id: 4,
@@ -41,7 +44,8 @@ const tripData = [
 		textFile: 'alaska2018.md',
 		summaryText: 'Bushwacked for Miles through Denali National Park',
 		expenseImage: 'alaskaExpenses.png',
-		videoId: null
+		videoId: null,
+		enableComments: true
 	},
 	{
 		id: 5,
@@ -52,7 +56,8 @@ const tripData = [
 		textFile: 'laos2018.md',
 		summaryText: 'Induldged in the exploration of waterfalls, rivers and caves',
 		expenseImage: 'nzExpenses.png',
-		videoId: 'B2rwjKPPilE'
+		videoId: 'B2rwjKPPilE',
+		enableComments: true
 	},
 	{
 		id: 6,
@@ -63,7 +68,8 @@ const tripData = [
 		textFile: 'philippines2016.md',
 		summaryText: 'Mango shakes every day',
 		expenseImage: 'nzExpenses.png',
-		videoId: 'HgFbGkHrtk0'
+		videoId: 'HgFbGkHrtk0',
+		enableComments: true
 	}
 	// {
 	// 	id: 2,

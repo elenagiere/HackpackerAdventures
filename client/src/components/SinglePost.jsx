@@ -6,10 +6,10 @@ import { publicImagePath } from '../Constants.js';
 class SinglePost extends React.Component {
 
 	render () {
-		const { id, title, date, imgName, photoUrls, textFile, summaryText, expenseImage, videoId } = this.props;
+		const { id, title, date, imgName, photoUrls, textFile, summaryText, expenseImage, videoId, enableComments } = this.props;
 
 		return (
-			<Link id="single-post" to={`/destination/${id}/${title}/${date}/${imgName}/${photoUrls}/${textFile}/${summaryText}/${expenseImage}/${videoId}`}>
+			<Link id="single-post" to={`/destination/${id}/${title}/${date}/${imgName}/${photoUrls}/${textFile}/${summaryText}/${expenseImage}/${videoId}/${enableComments}`}>
 				{/* <img src={publicImagePath/${imgName}`} alt={title} className="hover" />; */}
 				<img src={`${publicImagePath}/${imgName}`} alt={title} className="hover" />
 				<div className="text">

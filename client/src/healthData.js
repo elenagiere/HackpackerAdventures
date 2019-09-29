@@ -5,8 +5,11 @@ const healthData = [
 		date: 'June 2019',
 		imgName: 'fruitveggie.jpg',
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
-		textFile: 'lorem.md',
-		summaryText: 'How eat well while traveling'
+		textFile: 'comingsoon.md',
+		summaryText: 'How eat well while traveling',
+		expenseImage: null,
+		videoId: null,
+		enableComments: false
 	},
 	{
 		id: 2,
@@ -14,8 +17,11 @@ const healthData = [
 		date: 'January 2019',
 		imgName: 'yosemiteHike.jpg',
 		photoUrls: ['glassBeach.jpg', 'glassBeach.jpg', 'glassBeach.jpg'],
-		textFile: 'lorem.md',
-		summaryText: 'How to squeeze in cardio on the go'
+		textFile: 'comingsoon.md',
+		summaryText: 'How to squeeze in cardio on the go',
+		expenseImage: null,
+		videoId: null,
+		enableComments: false
 	}
 ];
 
