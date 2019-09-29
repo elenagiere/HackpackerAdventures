@@ -7,7 +7,7 @@ const tripData = [
 		photoUrls: ['glassBeach.jpg', 'lostCoast.jpg', 'glassBeach.jpg'],
 		textFile: 'vietnam2018.md',
 		summaryText: 'Hiked around Sapa and sunbathed in Halong Bay',
-		expenseImage: 'nzExpenses.png',
+		expenseImage: 'vietnamExpenses.png',
 		videoId: 'A3K3jh7cK4k',
 		enableComments: true
 	},
@@ -19,7 +19,7 @@ const tripData = [
 		photoUrls: ['hawaiianMilkyway.jpg', 'nz2.jpg', 'glassBeach.jpg'],
 		textFile: 'hawaii2019.md',
 		summaryText: 'Camped under the milkyway listening to the waves',
-		expenseImage: 'nzExpenses.png',
+		expenseImage: 'hawaiiExpenses.png',
 		videoId: 'Ty6G2P732NY',
 		enableComments: true
 	},
@@ -55,7 +55,7 @@ const tripData = [
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'laos2018.md',
 		summaryText: 'Induldged in the exploration of waterfalls, rivers and caves',
-		expenseImage: 'nzExpenses.png',
+		expenseImage: 'laosExpenses.png',
 		videoId: 'B2rwjKPPilE',
 		enableComments: true
 	},
@@ -67,7 +67,7 @@ const tripData = [
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'philippines2016.md',
 		summaryText: 'Mango shakes every day',
-		expenseImage: 'nzExpenses.png',
+		expenseImage: null,
 		videoId: 'HgFbGkHrtk0',
 		enableComments: true
 	}

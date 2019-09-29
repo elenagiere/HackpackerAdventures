@@ -76,6 +76,7 @@ class Destination extends React.Component {
 			</div>
 		) : null;
 
+		console.log(expenseImage);
 		const expenseGraphic = () => (expenseImage !== 'null' && expenseImage !== 'undefined') ? (
 			<img className="spreadsheet" src={`${publicImagePath}/expenses/${expenseImage}`} alt="breakdown of expenses" />
 		) : null;
