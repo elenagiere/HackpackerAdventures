@@ -23,7 +23,7 @@ class Header extends React.Component {
 							<FaBookReader />
 						</div>
 						<div className="text">
-							<h3>Stories</h3>
+							<h3>Trips</h3>
 							<p>Read about our travels</p>
 						</div>
 					</Link>
