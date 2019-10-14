@@ -42,7 +42,7 @@ class Header extends React.Component {
 						</div>
 						<div className="text">
 							<h3>Expenses</h3>
-							<p>Check out our travel finances</p>
+							<p>travel finances</p>
 						</div>
 					</Link>
 					<Link id="subject-link" to="/health">
@@ -51,7 +51,7 @@ class Header extends React.Component {
 						</div>
 						<div className="text">
 							<h3>Health & Fintess</h3>
-							<p>Learn healthy travel habits </p>
+							<p>healthy travel habits </p>
 						</div>
 					</Link>
 					{/* <div className="left-section">

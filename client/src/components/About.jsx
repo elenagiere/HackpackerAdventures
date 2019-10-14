@@ -1,7 +1,7 @@
 import React from 'react';
 // import Banner from './Banner.jsx';
 // import { imagePath, textPath } from '../Constants.js';
-import aboutBanner from '../static/images/LakeTahoeUs.jpg';
+import aboutBanner from '../static/images/caboHammock.jpg';
 import ReactMarkdown from 'react-markdown';
 
 class About extends React.Component {
@@ -35,7 +35,7 @@ class About extends React.Component {
 	render() {
 		return (
 			<div id="about-page" className="sub-page">
-				{/* <Banner imgUrl={`${imagePath}/LakeTahoeUs.jpg`} altTag="explore Lake Tahoe" /> */}
+				{/* <Banner imgUrl={`${imagePath}/caboHammock.jpg`} altTag="explore Lake Tahoe" /> */}
 				<div id="banner">
 					<img className='img-banner' src={aboutBanner} alt='Hiking in Lake Tahoe' />
 				</div>

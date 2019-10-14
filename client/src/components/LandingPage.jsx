@@ -5,8 +5,10 @@ import Header from './Header.jsx';
 // import MainHeader from './MainHeader.jsx';
 import LongCard from './LongCard.jsx';
 // import Modal from './Modal.jsx';
-import EmailPrompt from './EmailPrompt.jsx';
+// import EmailPrompt from './EmailPrompt.jsx';
 import landingPageImage from '../static/images/philippinesWithText.jpg';
+import tripData from '../tripData.js';
+import aboutUsData from '../aboutUsData.js';
 // import { FaInstagram, FaFacebook, FaYoutube, FaMapPin } from 'react-icons/fa';
 
 class LandingPage extends React.Component {
@@ -24,7 +26,15 @@ class LandingPage extends React.Component {
 	}
 
 	render () {
-		// const { newVisitor } = this.props.match.params;
+		const getLatestPost = () => {
+			const latestPost = tripData[tripData.length - 1];
+			return (<LongCard key={latestPost.id} id={latestPost.id} title={latestPost.title} date={latestPost.date} imgName={latestPost.imgName} photoUrls={latestPost.photoUrls} textFile={latestPost.textFile} summaryText={latestPost.summaryText} expenseImage={latestPost.expenseImage} videoId={latestPost.videoId} enableComments={latestPost.enableComments} />);
+		}
+
+		const getAboutUsPost = () => {
+			const aboutPost = aboutUsData[0];
+			return (<LongCard key={aboutPost.id} id={aboutPost.id} title={aboutPost.title} date={aboutPost.date} imgName={aboutPost.imgName} photoUrls={aboutPost.photoUrls} textFile={aboutPost.textFile} summaryText={aboutPost.summaryText} expenseImage={aboutPost.expenseImage} videoId={aboutPost.videoId} enableComments={aboutPost.enableComments} />);
+		}
 
 		return (
 			<div id="home-page" className="sub-page">
@@ -40,9 +50,12 @@ class LandingPage extends React.Component {
 					{/* <span>San Jose, CA</span> */}
 				{/* </div> */}
 				{/* <EmailPrompt></EmailPrompt> */}
+				<h2 className="latest-post-header">Our Latest Post</h2>
+				{getLatestPost()}
 				<Header></Header>
 				{/* {this.state.isModalOpen ? <Modal toggle={this.onToggle.bind(this)}></Modal> : null } */}
-				<LongCard title="About Us" summaryText="Hello, beautiful people! My name is Luke and this is my incredible girlfriend, Elena!" imgName="LakeTahoeUs.jpg"></LongCard>
+				{/* <LongCard title="About Us" summaryText="Hello, beautiful people! My name is Luke and this is my incredible girlfriend, Elena!" imgName="caboHammock.jpg"></LongCard> */}
+				{getAboutUsPost()}
 				{/* list the latest blog post */}
 			</div>
 		);

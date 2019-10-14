@@ -70,6 +70,18 @@ const tripData = [
 		expenseImage: null,
 		videoId: 'HgFbGkHrtk0',
 		enableComments: true
+	},
+	{
+		id: 7,
+		title: 'Baja California',
+		date: 'October 1, 2019 - October 7, 2019',
+		imgName: 'bajaCalifornia.jpg',
+		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
+		textFile: 'bajaCaliforniaMexico.md',
+		summaryText: 'Relaxed on beautiful beaches and ate delicious tacos',
+		expenseImage: null,
+		videoId: null,
+		enableComments: true
 	}
 	// {
 	// 	id: 2,

@@ -34,7 +34,7 @@
 // 						<p className="location-text">San Jose, CA</p>
 // 					</div>
 // 					<p>We are Luke and Elena and love to travel. We are currently based out of San Jose, CA.</p>
-// 					<img className="nav-bar-img" src={`${imagePath}/LakeTahoeUs.jpg`} alt="Luke & Elena" />
+// 					<img className="nav-bar-img" src={`${imagePath}/caboHammock.jpg`} alt="Luke & Elena" />
 // 				</div> */}
 // 			</div>
 // 		</div>

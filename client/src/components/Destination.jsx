@@ -40,7 +40,6 @@ class Destination extends React.Component {
 
 	render() {
 		const { id, title, date, imgName, photoUrls, expenseImage, videoId, enableComments } = this.props.match.params;
-		console.log(expenseImage);
 		// const photoList = () =>
 		// photoUrls.split(',').map((url, i) => (<img key={i} className="sub-section" src={`${imagePath}/${url}`} alt="img" />));
 
@@ -51,10 +50,6 @@ class Destination extends React.Component {
 			identifier: `disqusId-${id}`,
 			title: title,
 		};
-
-		console.log('disqusConfig');
-		console.log(disqusConfig);
-
 
 		const videoOpts = {
 			height: '390',
@@ -76,7 +71,6 @@ class Destination extends React.Component {
 			</div>
 		) : null;
 
-		console.log(expenseImage);
 		const expenseGraphic = () => (expenseImage !== 'null' && expenseImage !== 'undefined') ? (
 			<img className="spreadsheet" src={`${publicImagePath}/expenses/${expenseImage}`} alt="breakdown of expenses" />
 		) : null;
@@ -87,8 +81,8 @@ class Destination extends React.Component {
 				<div className="content">
 					<div className="destination-content">
 						<h1>{title}</h1>
-						<p className="post-date">{date}</p>
-						{enableComments ? <Disqus.CommentCount shortname={disqusShortname} config={disqusConfig}></Disqus.CommentCount> : null}
+						{date !== 'null' ? <p className="post-date">{date}</p> : null}
+						{enableComments === 'true' ? <Disqus.CommentCount shortname={disqusShortname} config={disqusConfig}></Disqus.CommentCount> : null}
 						<div className="summary-section">
 							<div className="clear-box"></div>
 							{expenseGraphic()}
@@ -106,7 +100,7 @@ class Destination extends React.Component {
 								</span>
 							</div>
 						</div> */}
-						{enableComments ? <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} /> : null}
+						{enableComments === 'true' ? <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} /> : null}
 					</div>
 				</div>
 			</div>
