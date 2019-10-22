@@ -82,6 +82,18 @@ const tripData = [
 		expenseImage: null,
 		videoId: null,
 		enableComments: true
+	},
+	{
+		id: 8,
+		title: 'Mexico City, Mexico',
+		date: 'October 8, 2019 - October 14, 2019',
+		imgName: 'teotihuacan.jpg',
+		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
+		textFile: 'mexicoCity.md',
+		summaryText: 'Walked all over exploring museums, cathedrals, and ancient pyramids',
+		expenseImage: null,
+		videoId: null,
+		enableComments: true
 	}
 	// {
 	// 	id: 2,

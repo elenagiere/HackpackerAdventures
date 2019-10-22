@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Home from './Home.jsx';
 import DropDown from './DropDown.jsx';
 import { publicImagePath } from '../Constants.js';
-// import { FaMapPin } from 'react-icons/fa';
+import { FaMapPin } from 'react-icons/fa';
 
 class MainHeader extends React.Component {
 
@@ -13,8 +13,9 @@ class MainHeader extends React.Component {
 			'About',
 			'Trips',
 			'Photography',
-			'Expenses',
-			'Health'
+			'Location'
+			// 'Expenses',
+			// 'Health'
 		];
 
 		const mainTabs = () =>
@@ -32,10 +33,6 @@ class MainHeader extends React.Component {
 					<img className="logo" src={`${publicImagePath}backpack_icon.png`} alt="logo" />
 					<Link className="title" key="0" to="/home">Hackpacker Adventures</Link>
 					{mainTabs()}
-					{/* <div className="our-location">
-						<FaMapPin />
-						<span>San Jose, CA</span>
-					</div> */}
 				</div>
 				{fill}
 			</div>

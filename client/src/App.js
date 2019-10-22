@@ -7,6 +7,7 @@ import About from './components/About.jsx';
 import Trips from './components/Trips.jsx';
 import Photography from './components/Photography.jsx';
 import Contact from './components/Contact.jsx';
+import LocationDetails from './components/LocationDetails.jsx';
 import AddTripForm from './components/AddTripForm.jsx';
 import Destination from './components/Destination.jsx';
 import MainHeader from './components/MainHeader.jsx';
@@ -33,6 +34,7 @@ class App extends Component {
               <Route path="/expenses" component={Expenses} />
               <Route path="/health" component={Health} />
               <Route path="/contact" component={Contact} />
+              <Route path="/location" component={LocationDetails} />
               <Route path="/addTripForm" component={AddTripForm} />
               <Route path="/destination/:id/:title/:date/:imgName/:photoUrls/:textFile/:summaryText/:expenseImage/:videoId/:enableComments" component={Destination} />
             </ScrollToTop>

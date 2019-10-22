@@ -658,6 +658,25 @@ button {
   }
 }
 
+#our-location {
+  background-color: $darkest-blue;
+  color: white;
+  height: 2rem;
+  line-height: 1.5rem;
+  padding-top: 8px;
+  text-align: center;
+  width: 100%;
+
+  a {
+    color: white;
+  }
+
+  svg {
+    margin: 0 0.2rem;
+    color: $light-blue;
+  }
+}
+
 .footer {
   height: 100px;
   background: $darkest-blue;
@@ -984,6 +1003,7 @@ button {
       }
     }
   }
+  
 
   .category-icons {
     padding: 0.5rem 0;
@@ -998,6 +1018,17 @@ button {
   .trip-text {
     margin-top: 1rem;
     line-height: 25px;
+
+    p:nth-of-type(2n) img {
+      float: left;
+      padding: 2rem 2rem 2rem 0;
+    }
+
+    img {
+      width: 350px;
+      float: right;
+      padding: 2rem 0 2rem 2rem;
+    }
   }
 
   .dest-section {

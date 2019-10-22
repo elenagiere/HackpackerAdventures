@@ -5,7 +5,7 @@ import tripData from '../tripData.js';
 export default function Posts () {
 
 	const singlePosts = () =>
-		tripData.map(aPost => {
+		tripData.slice(0).reverse().map(aPost => {
 			return (<SinglePost key={aPost.id} id={aPost.id} title={aPost.title} date={aPost.date} imgName={aPost.imgName} photoUrls={aPost.photoUrls} textFile={aPost.textFile} summaryText={aPost.summaryText} expenseImage={aPost.expenseImage} videoId={aPost.videoId} enableComments={aPost.enableComments} />);
 		});
 

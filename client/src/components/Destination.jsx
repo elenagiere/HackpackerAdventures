@@ -26,7 +26,7 @@ class Destination extends React.Component {
 			.then(text => {
 				this.setState({
 					markdown: text,
-				})
+				});
 			}).catch((err) => {
 				console.log('markdown fetch error');
 				console.log(err);
@@ -40,6 +40,7 @@ class Destination extends React.Component {
 
 	render() {
 		const { id, title, date, imgName, photoUrls, expenseImage, videoId, enableComments } = this.props.match.params;
+
 		// const photoList = () =>
 		// photoUrls.split(',').map((url, i) => (<img key={i} className="sub-section" src={`${imagePath}/${url}`} alt="img" />));
 
@@ -87,7 +88,7 @@ class Destination extends React.Component {
 							<div className="clear-box"></div>
 							{expenseGraphic()}
 							<div className="trip-text">
-								<ReactMarkdown source={this.state.markdown} escapeHtml={false} />
+								<ReactMarkdown source={this.state.markdown} escapeHtml={false} transformImageUri={uri => uri.startsWith("http") ? uri : `${publicImagePath}${uri}`} />
 							</div>
 						</div>
 						{youtubeVideo()}
