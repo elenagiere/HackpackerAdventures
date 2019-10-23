@@ -2,7 +2,7 @@ import React from 'react';
 import tripData from '../tripData.js';
 // import Banner from './Banner.jsx';
 import { publicImagePath } from '../Constants.js';
-import photoBanner from '../static/images/MtFuji.jpg';
+import photoBanner from '../static/images/MtFuji_opt.jpg';
 
 export default function Photography() {
 

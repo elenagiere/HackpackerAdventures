@@ -1,7 +1,7 @@
 import React from 'react';
 // import Banner from './Banner.jsx';
 // import { imagePath, textPath } from '../Constants.js';
-import aboutBanner from '../static/images/caboHammock.jpg';
+import aboutBanner from '../static/images/caboHammock_opt.jpg';
 import ReactMarkdown from 'react-markdown';
 
 class About extends React.Component {

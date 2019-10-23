@@ -1,5 +1,5 @@
 import React from 'react';
-import expenseBanner from '../static/images/expenseBanner2.jpg';
+import expenseBanner from '../static/images/expenseBanner2_opt.jpg';
 import ReactMarkdown from 'react-markdown';
 
 class Expenses extends React.Component {

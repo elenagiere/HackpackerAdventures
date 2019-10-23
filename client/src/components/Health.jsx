@@ -1,5 +1,5 @@
 import React from 'react';
-import healthBanner from '../static/images/nzCloudHike.jpg';
+import healthBanner from '../static/images/nzCloudHike_opt.jpg';
 import SinglePost from './SinglePost.jsx';
 import healthData from '../healthData.js';
 
