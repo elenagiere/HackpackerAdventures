@@ -8,8 +8,8 @@ class LocationDetails extends React.Component {
                 <iframe src="https://hackpackeradventures.travelmap.net" 
                     width="100%" 
                     height="600" 
-                    frameborder="0" 
-                    allowfullscreen>
+                    frameBorder="0"
+                    allowFullScreen>
                 </iframe>
             </div>
 		);

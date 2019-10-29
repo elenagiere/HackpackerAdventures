@@ -73,7 +73,7 @@ const tripData = [
 	},
 	{
 		id: 7,
-		title: 'Baja California',
+		title: 'Baja California, Mexico',
 		date: 'October 1, 2019 - October 7, 2019',
 		imgName: 'bajaCalifornia_opt.jpg',
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
@@ -91,6 +91,18 @@ const tripData = [
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'mexicoCity.md',
 		summaryText: 'Walked all over exploring museums, cathedrals, and ancient pyramids',
+		expenseImage: null,
+		videoId: null,
+		enableComments: true
+	},
+	{
+		id: 9,
+		title: 'Oaxaca, Mexico',
+		date: 'October 15, 2019 - October 23, 2019',
+		imgName: 'oaxacaSunset_opt.jpg',
+		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
+		textFile: 'oaxacaMexico.md',
+		summaryText: 'We ate our way around this beautiful, mountainous region.',
 		expenseImage: null,
 		videoId: null,
 		enableComments: true

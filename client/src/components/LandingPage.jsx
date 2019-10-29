@@ -34,7 +34,7 @@ class LandingPage extends React.Component {
 
 		return (
 			<div id="home-page" className="sub-page">
-				<OurLocation></OurLocation>
+				{/* <OurLocation></OurLocation> */}
 				<img className="landing-page-image" src={landingPageImage} alt="El Nido" />
 				<h2 className="latest-post-header">Our Latest Post</h2>
 				{getLatestPost()}

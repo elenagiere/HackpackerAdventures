@@ -32,7 +32,7 @@ export default LongCard;
 
 LongCard.propTypes = {
 	title: PropTypes.string.isRequired,
-	date: PropTypes.string.isRequired,
+	date: PropTypes.string,
 	imgName: PropTypes.string.isRequired,
 	photoUrls: PropTypes.arrayOf(PropTypes.string).isRequired,
 	textFile: PropTypes.string.isRequired,
