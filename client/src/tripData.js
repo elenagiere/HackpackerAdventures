@@ -18,7 +18,7 @@ const tripData = [
 		imgName: 'HawaiianMilkyway_opt.jpg',
 		photoUrls: ['hawaiianMilkyway.jpg', 'nz2.jpg', 'glassBeach.jpg'],
 		textFile: 'hawaii2019.md',
-		summaryText: 'Camped under the milkyway listening to the waves',
+		summaryText: 'Camped under the Milky Way listening to the waves',
 		expenseImage: 'hawaiiExpenses.png',
 		videoId: 'Ty6G2P732NY',
 		enableComments: true
@@ -30,7 +30,7 @@ const tripData = [
 		imgName: 'glacier_opt.jpg',
 		photoUrls: ['glacier.jpg', 'lostCoast.jpg', 'glassBeach.jpg'],
 		textFile: 'glacier2019.md',
-		summaryText: 'Set out to find the most coolest lakes',
+		summaryText: 'Set out to find the coolest alpine lakes',
 		expenseImage: 'glacierExpenses.png',
 		videoId: null,
 		enableComments: true
@@ -42,7 +42,7 @@ const tripData = [
 		imgName: 'DenaliBackpacking.jpg',
 		photoUrls: ['glassBeach.jpg', 'DenaliBackpacking.jpg', 'glassBeach.jpg'],
 		textFile: 'alaska2018.md',
-		summaryText: 'Bushwacked for Miles through Denali National Park',
+		summaryText: 'Bushwacked for miles through Denali National Park',
 		expenseImage: 'alaskaExpenses.png',
 		videoId: null,
 		enableComments: true
@@ -54,7 +54,7 @@ const tripData = [
 		imgName: 'waterfall.jpg',
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'laos2018.md',
-		summaryText: 'Induldged in the exploration of waterfalls, rivers and caves',
+		summaryText: 'Explored the many waterfalls, rivers and cave systems',
 		expenseImage: 'laosExpenses.png',
 		videoId: 'B2rwjKPPilE',
 		enableComments: true
@@ -66,7 +66,7 @@ const tripData = [
 		imgName: 'puertoPrincesa_opt.jpg',
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'philippines2016.md',
-		summaryText: 'Mango shakes every day',
+		summaryText: 'Slurped up mango shakes every day',
 		expenseImage: null,
 		videoId: 'HgFbGkHrtk0',
 		enableComments: true
@@ -78,7 +78,7 @@ const tripData = [
 		imgName: 'bajaCalifornia_opt.jpg',
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'bajaCaliforniaMexico.md',
-		summaryText: 'Relaxed on beautiful beaches and ate delicious tacos',
+		summaryText: 'Relaxed on beautiful beaches and devoured delicious tacos',
 		expenseImage: null,
 		videoId: null,
 		enableComments: true
@@ -90,7 +90,7 @@ const tripData = [
 		imgName: 'teotihuacan_opt.jpg',
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'mexicoCity.md',
-		summaryText: 'Walked all over exploring museums, cathedrals, and ancient pyramids',
+		summaryText: 'Walked through  museums, cathedrals, and even ancient pyramids',
 		expenseImage: null,
 		videoId: null,
 		enableComments: true
@@ -102,7 +102,7 @@ const tripData = [
 		imgName: 'oaxacaSunset_opt.jpg',
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'oaxacaMexico.md',
-		summaryText: 'We ate our way around this beautiful, mountainous region.',
+		summaryText: 'Ate our way around this beautiful, mountainous region',
 		expenseImage: null,
 		videoId: null,
 		enableComments: true
