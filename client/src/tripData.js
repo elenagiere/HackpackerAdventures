@@ -106,6 +106,18 @@ const tripData = [
 		expenseImage: null,
 		videoId: null,
 		enableComments: true
+	},
+	{
+		id: 10,
+		title: 'Cuba',
+		date: 'November 6, 2019 - November 12, 2019',
+		imgName: 'cuba_opt.jpg',
+		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
+		textFile: 'cuba.md',
+		summaryText: 'Toured cobblestone streets, lush tobacco farms, and 1950s automobiles',
+		expenseImage: null,
+		videoId: null,
+		enableComments: true
 	}
 	// {
 	// 	id: 2,
