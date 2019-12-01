@@ -80,7 +80,7 @@ const tripData = [
 		textFile: 'bajaCaliforniaMexico.md',
 		summaryText: 'Relaxed on beautiful beaches and devoured delicious tacos',
 		expenseImage: null,
-		videoId: null,
+		videoId: 'T_ziz7DzG2A',
 		enableComments: true
 	},
 	{
@@ -92,7 +92,7 @@ const tripData = [
 		textFile: 'mexicoCity.md',
 		summaryText: 'Walked through  museums, cathedrals, and even ancient pyramids',
 		expenseImage: null,
-		videoId: null,
+		videoId: 'T_ziz7DzG2A',
 		enableComments: true
 	},
 	{
@@ -104,7 +104,7 @@ const tripData = [
 		textFile: 'oaxacaMexico.md',
 		summaryText: 'Ate our way around this beautiful, mountainous region',
 		expenseImage: null,
-		videoId: null,
+		videoId: 'T_ziz7DzG2A',
 		enableComments: true
 	},
 	{
@@ -117,6 +117,18 @@ const tripData = [
 		summaryText: 'Toured cobblestone streets, lush tobacco farms, and 1950s automobiles',
 		expenseImage: null,
 		videoId: null,
+		enableComments: true
+	},
+	{
+		id: 11,
+		title: 'Yucatan, Mexico',
+		date: 'October 23, 2019 - November 16, 2019',
+		imgName: 'chichenItza_us_opt.jpg',
+		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
+		textFile: 'yucatan.md',
+		summaryText: 'Splashed into a number of lagoons, cenotes, and oceans',
+		expenseImage: null,
+		videoId: 'T_ziz7DzG2A',
 		enableComments: true
 	}
 	// {
