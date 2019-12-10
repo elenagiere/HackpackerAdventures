@@ -130,6 +130,18 @@ const tripData = [
 		expenseImage: null,
 		videoId: 'T_ziz7DzG2A',
 		enableComments: true
+	},
+	{
+		id: 12,
+		title: 'Belize',
+		date: 'November 16, 2019 - November 24, 2019',
+		imgName: 'belizeTurtle_opt.jpg',
+		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
+		textFile: 'belize.md',
+		summaryText: 'Snorkeled alongside turtles, sharks, and manatees',
+		expenseImage: null,
+		videoId: null,
+		enableComments: true
 	}
 	// {
 	// 	id: 2,
