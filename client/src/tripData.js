@@ -150,7 +150,7 @@ const tripData = [
 		imgName: 'guatemala_opt.jpg',
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'guatemala.md',
-		summaryText: 'Fullfilled our adventureous nature with caves, rivers, lakes and exploding volcanos',
+		summaryText: 'Fulfilled our adventurous nature with caves, rivers, lakes and erupting volcanos',
 		expenseImage: null,
 		videoId: 'ZN8QzMAgQcc',
 		enableComments: true
