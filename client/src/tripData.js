@@ -140,7 +140,19 @@ const tripData = [
 		textFile: 'belize.md',
 		summaryText: 'Snorkeled alongside turtles, sharks, and manatees',
 		expenseImage: null,
-		videoId: null,
+		videoId: 'ZN8QzMAgQcc',
+		enableComments: true
+	},
+	{
+		id: 13,
+		title: 'Guatemala',
+		date: 'November 24, 2019 - December 9, 2019',
+		imgName: 'guatemala_opt.jpg',
+		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
+		textFile: 'guatemala.md',
+		summaryText: 'Fullfilled our adventureous nature with caves, rivers, lakes and exploding volcanos',
+		expenseImage: null,
+		videoId: 'ZN8QzMAgQcc',
 		enableComments: true
 	}
 	// {

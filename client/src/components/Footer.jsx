@@ -20,7 +20,7 @@ export default function Footer () {
                     <FaFacebook /> 
                 </a>
                 <a className="icon-button"
-                    href="https://www.youtube.com/user/sandraisamazing/videos?view_as=subscriber"
+                    href="https://www.youtube.com/channel/UCHa9aI26VuhL3r8Li4-UCtg?view_as=subscriber"
                     target="_blank"
                     rel="noopener noreferrer">
                         <FaYoutube /> 
