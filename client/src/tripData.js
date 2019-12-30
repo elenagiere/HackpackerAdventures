@@ -154,6 +154,18 @@ const tripData = [
 		expenseImage: null,
 		videoId: 'ZN8QzMAgQcc',
 		enableComments: true
+	},
+	{
+		id: 14,
+		title: 'El Salvador',
+		date: 'December 9, 2019 - December 12, 2019',
+		imgName: 'salvador_opt.jpg',
+		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
+		textFile: 'elSalvador.md',
+		summaryText: 'Surfed the pacific waves and stuffed our faces with many pupusas',
+		expenseImage: null,
+		videoId: null,
+		enableComments: true
 	}
 	// {
 	// 	id: 2,
