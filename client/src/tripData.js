@@ -162,7 +162,7 @@ const tripData = [
 		imgName: 'salvador_opt.jpg',
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'elSalvador.md',
-		summaryText: 'Surfed the pacific waves and stuffed our faces with many pupusas',
+		summaryText: 'Surfed the Pacific waves and stuffed our faces with many pupusas',
 		expenseImage: null,
 		videoId: null,
 		enableComments: true
