@@ -7,7 +7,7 @@ class OurLocation extends React.Component {
 	render() {
 		return (
             <div id="our-location">
-                <Link to="/location">
+                <Link to="/map">
                     <span>Current Location</span>
                     <FaMapPin />
                     <span>Tulum, Mexico</span>

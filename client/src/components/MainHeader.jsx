@@ -12,10 +12,10 @@ class MainHeader extends React.Component {
 		const subjects = [
 			'About',
 			'Trips',
-			'Photography',
-			'Location'
+			'Photos',
+			'Map',
 			// 'Expenses',
-			// 'Health'
+			'Health'
 		];
 
 		const mainTabs = () =>

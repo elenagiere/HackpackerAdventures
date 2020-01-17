@@ -34,7 +34,7 @@ class App extends Component {
               <Route path="/expenses" component={Expenses} />
               <Route path="/health" component={Health} />
               <Route path="/contact" component={Contact} />
-              <Route path="/location" component={LocationDetails} />
+              <Route path="/map" component={LocationDetails} />
               <Route path="/addTripForm" component={AddTripForm} />
               <Route path="/destination/:id/:title/:date/:imgName/:photoUrls/:textFile/:summaryText/:expenseImage/:videoId/:enableComments" component={Destination} />
             </ScrollToTop>

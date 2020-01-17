@@ -13,12 +13,12 @@ const healthData = [
 	},
 	{
 		id: 2,
-		title: 'Cardio',
-		date: 'January 2019',
+		title: 'Exercise',
+		date: 'January 2020',
 		imgName: 'yosemiteHike.jpg',
 		photoUrls: ['glassBeach.jpg', 'glassBeach.jpg', 'glassBeach.jpg'],
-		textFile: 'comingsoon.md',
-		summaryText: 'How to squeeze in cardio on the go',
+		textFile: 'cardio.md',
+		summaryText: 'How to exercise on the go',
 		expenseImage: null,
 		videoId: null,
 		enableComments: false

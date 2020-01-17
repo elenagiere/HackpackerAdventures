@@ -164,7 +164,19 @@ const tripData = [
 		textFile: 'elSalvador.md',
 		summaryText: 'Surfed the Pacific waves and stuffed our faces with many pupusas',
 		expenseImage: null,
-		videoId: null,
+		videoId: 'IlSz6vEHd58',
+		enableComments: true
+	},
+	{
+		id: 15,
+		title: 'Nicaragua',
+		date: 'December 13, 2019 - January 3, 2020',
+		imgName: 'nica_opt.jpg',
+		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
+		textFile: 'nicaragua.md',
+		summaryText: 'Enjoyed the land of coffee, treehouses, and canyons',
+		expenseImage: null,
+		videoId: 'IlSz6vEHd58',
 		enableComments: true
 	}
 	// {

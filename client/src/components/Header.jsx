@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Home from './Home.jsx';
 import DropDown from './DropDown.jsx';
 // import { imagePath } from '../Constants.js';
-import { FaHome, FaCamera, FaDollarSign, FaBookReader, FaRunning } from 'react-icons/fa';
+import { FaHome, FaCamera, FaDollarSign, FaBookReader, FaRunning, FaMapMarkedAlt } from 'react-icons/fa';
 
 class Header extends React.Component {
 
@@ -32,17 +32,26 @@ class Header extends React.Component {
 							<FaCamera />
 						</div>
 						<div className="text">
-							<h3>Photography</h3>
+							<h3>Photos</h3>
 							<p>View our captured shots</p>
 						</div>
 					</Link>
-					<Link id="subject-link" to="/expenses">
+					{/* <Link id="subject-link" to="/expenses">
 						<div className="icon-row">
 							<FaDollarSign />
 						</div>
 						<div className="text">
 							<h3>Expenses</h3>
 							<p>Travel finances</p>
+						</div>
+					</Link> */}
+					<Link id="subject-link" to="/map">
+						<div className="icon-row">
+							<FaMapMarkedAlt />
+						</div>
+						<div className="text">
+							<h3>Map</h3>
+							<p>See our travel path</p>
 						</div>
 					</Link>
 					<Link id="subject-link" to="/health">
