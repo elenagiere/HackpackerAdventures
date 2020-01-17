@@ -30,7 +30,7 @@ class App extends Component {
               <Route path="/home" component={LandingPage} />
               <Route path="/about" component={About} />
               <Route path="/trips" component={Trips} />
-              <Route path="/photography" component={Photography} />
+              <Route path="/photos" component={Photography} />
               <Route path="/expenses" component={Expenses} />
               <Route path="/health" component={Health} />
               <Route path="/contact" component={Contact} />

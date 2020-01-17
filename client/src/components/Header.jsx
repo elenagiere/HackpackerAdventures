@@ -27,7 +27,7 @@ class Header extends React.Component {
 							<p>Read about our travels</p>
 						</div>
 					</Link>
-					<Link id="subject-link" to="/photography">
+					<Link id="subject-link" to="/photos">
 						<div className="icon-row">
 							<FaCamera />
 						</div>
