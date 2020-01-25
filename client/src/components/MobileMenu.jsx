@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 
-class DropDown extends React.Component {
+class MobileMenu extends React.Component {
 
 	constructor(props) {
 		super(props);
 
 		this.state = {
-			showMenu: false,
+			showMenu: true,
 		};
 	}
 
@@ -24,7 +24,7 @@ class DropDown extends React.Component {
 			e.nativeEvent.explicitOriginalTarget === e.nativeEvent.originalTarget) {
 		  return;
 		}
-
+	
 		if (this.state.showMenu) {
 		  setTimeout(() => {
 			this.setState({ showMenu: false });
@@ -45,18 +45,17 @@ class DropDown extends React.Component {
 			));
 
 		return (
-			<button id="dropdown" onClick={this.onClick.bind(this)} onBlur={this.handleBlur}>
-				<FaBars />
-				<div className="options">
+
+				<div className="options" tabIndex="0" >
 					{(this.state.showMenu) ? optionList() : null}
 				</div>
-			</button>
+
 		);
 	}
 }
 
-export default DropDown;
+export default MobileMenu;
 
-DropDown.propTypes = {
+MobileMenu.propTypes = {
 	options: PropTypes.arrayOf(PropTypes.string).isRequired,
 };

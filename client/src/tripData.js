@@ -162,7 +162,7 @@ const tripData = [
 		imgName: 'salvador_opt.jpg',
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'elSalvador.md',
-		summaryText: 'Surfed the Pacific waves and stuffed our faces with many pupusas',
+		summaryText: 'Surfed the Pacific waves and stuffed our faces with pupusas',
 		expenseImage: null,
 		videoId: 'IlSz6vEHd58',
 		enableComments: true
@@ -177,6 +177,18 @@ const tripData = [
 		summaryText: 'Enjoyed the land of coffee, treehouses, and canyons',
 		expenseImage: null,
 		videoId: 'IlSz6vEHd58',
+		enableComments: true
+	},
+	{
+		id: 16,
+		title: 'Costa Rica',
+		date: 'January 3, 2019 - January 11, 2020',
+		imgName: 'costarica_opt.jpg',
+		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
+		textFile: 'costarica.md',
+		summaryText: 'Meandered through mystic cloud forests, rain forests, and dry forests',
+		expenseImage: null,
+		videoId: null,
 		enableComments: true
 	}
 	// {
