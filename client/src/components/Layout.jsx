@@ -5,15 +5,17 @@ import OurLocation from './OurLocation.jsx';
 import EmailPrompt from './EmailPrompt.jsx';
 import Footer from './Footer.jsx';
 
-export default function Layout ({children}) {
-    return(
-      <div>
-         <MainHeader></MainHeader>
-         { children }
-         <EmailPrompt></EmailPrompt>
-         <Footer></Footer>
-      </div>
-     );
+
+export default function Layout({ children }) {
+
+    return (
+        <div>
+            <MainHeader></MainHeader>
+            {children}
+            <EmailPrompt></EmailPrompt>
+            <Footer></Footer>
+        </div>
+    );
 }
 
 Layout.propTypes = {

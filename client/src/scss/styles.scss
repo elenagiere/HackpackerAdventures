@@ -659,6 +659,17 @@ button {
   }
 }
 
+#mobileMenu {
+  .single-option {
+    display: block;
+    text-align: center;
+    height: 2rem;
+    padding-top: .75rem;
+    background: #e0e0e0;
+    border: 1px solid lightgray;
+  }
+}
+
 #our-location {
   background-color: $darkest-blue;
   color: white;
@@ -1029,7 +1040,6 @@ button {
       padding: .75rem 2rem .75rem 0;
 
       @media (max-width: $mobile-view-photos) {
-        padding: 1rem .5rem 1rem 0;
         width: 100%;
       }
     }
@@ -1040,7 +1050,6 @@ button {
       padding: .75rem 0 .75rem 1.5rem;
 
       @media (max-width: $mobile-view-photos) {
-        padding: 1rem .5rem 1rem 0;
         width: 100%;
       }
     }

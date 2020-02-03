@@ -190,6 +190,18 @@ const tripData = [
 		expenseImage: null,
 		videoId: null,
 		enableComments: true
+	},
+	{
+		id: 17,
+		title: 'Panama',
+		date: 'January 11, 2020 - January 24, 2020',
+		imgName: 'panama_opt.jpg',
+		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
+		textFile: 'panama.md',
+		summaryText: 'Experienced the contrast of the big city and the tiny island villages of Panama',
+		expenseImage: null,
+		videoId: null,
+		enableComments: true
 	}
 	// {
 	// 	id: 2,

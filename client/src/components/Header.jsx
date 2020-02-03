@@ -2,8 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import Home from './Home.jsx';
-import DropDown from './DropDown.jsx';
-// import { imagePath } from '../Constants.js';
 import { FaHome, FaCamera, FaDollarSign, FaBookReader, FaRunning, FaMapMarkedAlt } from 'react-icons/fa';
 
 class Header extends React.Component {
@@ -12,7 +10,6 @@ class Header extends React.Component {
 		const options = [
   			'About', 'Trips', 'Photography'
 		];
-		// const defaultOption = options[0];
 
 		const fill = (this.props.children !== null) ? this.props.children : <Home />;
 		return (
@@ -63,9 +60,6 @@ class Header extends React.Component {
 							<p>Healthy travel habits </p>
 						</div>
 					</Link>
-					{/* <div className="left-section">
-						<DropDown options={options} />
-					</div> */}
 				</div>
 				{fill}
 			</div>
