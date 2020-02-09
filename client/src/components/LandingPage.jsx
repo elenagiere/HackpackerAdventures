@@ -1,15 +1,15 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 import Header from './Header.jsx';
 import LongCard from './LongCard.jsx';
-import OurLocation from './OurLocation.jsx';
+import UpperEmailPrompt from './UpperEmailPrompt.jsx';
 import landingPageImage from '../static/images/philippinesWithText_opt.jpg';
 import tripData from '../tripData.js';
 import aboutUsData from '../aboutUsData.js';
+import Iframe from 'react-iframe';
 
 class LandingPage extends React.Component {
 
-	constructor (props) {
+	constructor(props) {
 		super(props);
 
 		this.state = {
@@ -17,11 +17,11 @@ class LandingPage extends React.Component {
 		};
 	}
 
-	onToggle () {
+	onToggle() {
 		this.setState({ 'isModalOpen': !this.state.isModalOpen });
 	}
 
-	render () {
+	render() {
 		const getLatestPost = () => {
 			const latestPost = tripData[tripData.length - 1];
 			return (<LongCard key={latestPost.id} id={latestPost.id} title={latestPost.title} date={latestPost.date} imgName={latestPost.imgName} photoUrls={latestPost.photoUrls} textFile={latestPost.textFile} summaryText={latestPost.summaryText} expenseImage={latestPost.expenseImage} videoId={latestPost.videoId} enableComments={latestPost.enableComments} />);
@@ -36,11 +36,18 @@ class LandingPage extends React.Component {
 			<div id="home-page" className="sub-page">
 				{/* <OurLocation></OurLocation> */}
 				<img className="landing-page-image" src={landingPageImage} alt="El Nido" />
+				<UpperEmailPrompt className="upper-email-prompt"></UpperEmailPrompt>
 				<h2 className="latest-post-header">Our Latest Post</h2>
 				{getLatestPost()}
 				<Header></Header>
 				{/* {this.state.isModalOpen ? <Modal toggle={this.onToggle.bind(this)}></Modal> : null } */}
 				{getAboutUsPost()}
+				{/* EmbedYoutubeChannel */}
+				<Iframe url="https://www.youtube.com/embed?listType=playlist&list=PL0zkArPPLLPx1CHLuSf8dSQEhe7X0b5WN"
+					id="youtube-channel"
+					className="youtube-channel"
+					display="initial"
+					position="relative" />
 			</div>
 		);
 	}

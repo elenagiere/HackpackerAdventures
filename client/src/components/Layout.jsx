@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import MainHeader from './MainHeader.jsx';
 import OurLocation from './OurLocation.jsx';
-import EmailPrompt from './EmailPrompt.jsx';
+import UpperEmailPrompt from './UpperEmailPrompt.jsx';
 import Footer from './Footer.jsx';
 
 
@@ -12,7 +12,7 @@ export default function Layout({ children }) {
         <div>
             <MainHeader></MainHeader>
             {children}
-            <EmailPrompt></EmailPrompt>
+            <UpperEmailPrompt></UpperEmailPrompt>
             <Footer></Footer>
         </div>
     );
