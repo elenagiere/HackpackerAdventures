@@ -8,7 +8,7 @@ const tripData = [
 		textFile: 'vietnam2018.md',
 		summaryText: 'Hiked around Sapa and sunbathed in Halong Bay',
 		expenseImage: 'vietnamExpenses.png',
-		videoId: 'A3K3jh7cK4k',
+		videoId: 'FsRQeaqDrw4',
 		enableComments: true
 	},
 	{
@@ -20,7 +20,7 @@ const tripData = [
 		textFile: 'hawaii2019.md',
 		summaryText: 'Camped under the Milky Way listening to the waves',
 		expenseImage: 'hawaiiExpenses.png',
-		videoId: 'Ty6G2P732NY',
+		videoId: 'fFLoXtVG5bM',
 		enableComments: true
 	},
 	{
@@ -56,7 +56,7 @@ const tripData = [
 		textFile: 'laos2018.md',
 		summaryText: 'Explored the many waterfalls, rivers and cave systems',
 		expenseImage: 'laosExpenses.png',
-		videoId: 'B2rwjKPPilE',
+		videoId: 'XEvDEIsByWw',
 		enableComments: true
 	},
 	{
@@ -68,7 +68,7 @@ const tripData = [
 		textFile: 'philippines2016.md',
 		summaryText: 'Slurped up mango shakes every day',
 		expenseImage: null,
-		videoId: 'HgFbGkHrtk0',
+		videoId: 'QsDiXvC_WEA',
 		enableComments: true
 	},
 	{
@@ -188,7 +188,7 @@ const tripData = [
 		textFile: 'costarica.md',
 		summaryText: 'Meandered through mystic cloud forests, rain forests, and dry forests',
 		expenseImage: null,
-		videoId: null,
+		videoId: 'upJmacEjONk',
 		enableComments: true
 	},
 	{
@@ -200,7 +200,7 @@ const tripData = [
 		textFile: 'panama.md',
 		summaryText: 'Experienced the contrast of the big city and the tiny island villages of Panama',
 		expenseImage: null,
-		videoId: null,
+		videoId: 'upJmacEjONk',
 		enableComments: true
 	}
 	// {
@@ -211,7 +211,7 @@ const tripData = [
 	// 	photoUrls: ['glassBeach.jpg', 'glassBeach.jpg', 'glassBeach.jpg'],
 	// 	textFile: 'iceland2017.txt',
 	// 	summaryText: 'Drove around the entire country chasing waterfalls, volcanos, and fjords',
-	// 	videoId: 'Ut2OZq7C9zk'
+	// 	videoId: 'NLto1p8z614'
 	// },
 	// {
 	// 	id: 3,

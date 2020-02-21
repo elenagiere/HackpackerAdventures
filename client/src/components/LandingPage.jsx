@@ -43,7 +43,7 @@ class LandingPage extends React.Component {
 				{/* {this.state.isModalOpen ? <Modal toggle={this.onToggle.bind(this)}></Modal> : null } */}
 				{getAboutUsPost()}
 				{/* EmbedYoutubeChannel */}
-				<Iframe url="https://www.youtube.com/embed?listType=playlist&list=PL0zkArPPLLPx1CHLuSf8dSQEhe7X0b5WN"
+				<Iframe url="https://www.youtube.com/embed?listType=playlist&list=PL0zkArPPLLPy1lbhFw2pNZzqyj8psaSde"
 					id="youtube-channel"
 					className="youtube-channel"
 					display="initial"
