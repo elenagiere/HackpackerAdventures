@@ -202,6 +202,18 @@ const tripData = [
 		expenseImage: null,
 		videoId: 'upJmacEjONk',
 		enableComments: true
+	},
+	{
+		id: 18,
+		title: 'Colombia',
+		date: 'January 24, 2020 - February 5, 2020',
+		imgName: 'colombia_opt.jpg',
+		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
+		textFile: 'colombia.md',
+		summaryText: 'Soaked in the sunshine, colorful murals, family & friends',
+		expenseImage: null,
+		videoId: null,
+		enableComments: true
 	}
 	// {
 	// 	id: 2,
