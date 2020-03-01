@@ -214,6 +214,18 @@ const tripData = [
 		expenseImage: null,
 		videoId: null,
 		enableComments: true
+	},
+	{
+		id: 19,
+		title: 'Peru',
+		date: 'Feburary 5, 2020 - February 18, 2020',
+		imgName: 'peru_opt.jpg',
+		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
+		textFile: 'peru.md',
+		summaryText: 'Trudged through the rains to Machu Picchu and beyond',
+		expenseImage: null,
+		videoId: null,
+		enableComments: true
 	}
 	// {
 	// 	id: 2,
