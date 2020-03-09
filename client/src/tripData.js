@@ -212,7 +212,7 @@ const tripData = [
 		textFile: 'colombia.md',
 		summaryText: 'Soaked in the sunshine, colorful murals, family & friends',
 		expenseImage: null,
-		videoId: null,
+		videoId: 'XW8JcYTvaKI',
 		enableComments: true
 	},
 	{
@@ -224,7 +224,7 @@ const tripData = [
 		textFile: 'peru.md',
 		summaryText: 'Trudged through the rains to Machu Picchu and beyond',
 		expenseImage: null,
-		videoId: null,
+		videoId: 'XW8JcYTvaKI',
 		enableComments: true
 	}
 	// {
