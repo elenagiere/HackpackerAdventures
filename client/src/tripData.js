@@ -226,6 +226,18 @@ const tripData = [
 		expenseImage: null,
 		videoId: 'XW8JcYTvaKI',
 		enableComments: true
+	},
+	{
+		id: 20,
+		title: 'Bolivia',
+		date: 'Feburary 18, 2020 - February 26, 2020',
+		imgName: 'bolivia_opt.jpg',
+		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
+		textFile: 'bolivia.md',
+		summaryText: 'Road tripped through Mars on Earth',
+		expenseImage: null,
+		videoId: null,
+		enableComments: true
 	}
 	// {
 	// 	id: 2,
