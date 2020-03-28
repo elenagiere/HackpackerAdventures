@@ -10,7 +10,7 @@ class OurLocation extends React.Component {
                 <Link to="/map">
                     <span>Current Location</span>
                     <FaMapPin />
-                    <span>Tulum, Mexico</span>
+                    <span>Indiana, USA</span>
                 </Link>
             </div>
 		);

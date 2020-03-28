@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header.jsx';
 import LongCard from './LongCard.jsx';
+import OurLocation from './OurLocation.jsx';
 import UpperEmailPrompt from './UpperEmailPrompt.jsx';
 import landingPageImage from '../static/images/philippinesWithText_opt.jpg';
 import tripData from '../tripData.js';
@@ -34,7 +35,7 @@ class LandingPage extends React.Component {
 
 		return (
 			<div id="home-page" className="sub-page">
-				{/* <OurLocation></OurLocation> */}
+				<OurLocation></OurLocation>
 				<img className="landing-page-image" src={landingPageImage} alt="El Nido" />
 				<UpperEmailPrompt className="upper-email-prompt"></UpperEmailPrompt>
 				<h2 className="latest-post-header">Our Latest Post</h2>
