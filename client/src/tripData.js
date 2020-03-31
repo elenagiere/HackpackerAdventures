@@ -236,7 +236,7 @@ const tripData = [
 		textFile: 'bolivia.md',
 		summaryText: 'Road tripped through Mars on Earth',
 		expenseImage: null,
-		videoId: null,
+		videoId: 'ICr3fDKDE6Q',
 		enableComments: true
 	}
 	// {
