@@ -1114,20 +1114,28 @@ button {
       .clear-box {
         float: left;
         width: 0px;
-        height: 200px;
+        // height: 200px;
       }
 
       .spreadsheet {
         float: left;
         clear: left;
-        margin: 0 1.5rem 0.5rem 0;
-        width: 300px;
+        margin: 0 1.5rem 0 0;
+        width: 800px;
 
         @media (max-width: $mobile-view) {
           width: 100%;
         }
       }
     }
+  }
+
+  .spreadsheet {
+    // float: left;
+    // clear: left;
+    padding-top: 2rem;
+    max-width: 800px;
+    width: 100%;
   }
   
 

@@ -7,7 +7,7 @@ const tripData = [
 		photoUrls: ['glassBeach.jpg', 'lostCoast.jpg', 'glassBeach.jpg'],
 		textFile: 'vietnam2018.md',
 		summaryText: 'Hiked around Sapa and sunbathed in Halong Bay',
-		expenseImage: 'vietnamExpenses.png',
+		expenseImage: null,
 		videoId: 'FsRQeaqDrw4',
 		enableComments: true
 	},
@@ -19,7 +19,7 @@ const tripData = [
 		photoUrls: ['hawaiianMilkyway.jpg', 'nz2.jpg', 'glassBeach.jpg'],
 		textFile: 'hawaii2019.md',
 		summaryText: 'Camped under the Milky Way listening to the waves',
-		expenseImage: 'hawaiiExpenses.png',
+		expenseImage: null,
 		videoId: 'fFLoXtVG5bM',
 		enableComments: true
 	},
@@ -31,7 +31,7 @@ const tripData = [
 		photoUrls: ['glacier.jpg', 'lostCoast.jpg', 'glassBeach.jpg'],
 		textFile: 'glacier2019.md',
 		summaryText: 'Set out to find the coolest alpine lakes',
-		expenseImage: 'glacierExpenses.png',
+		expenseImage: null,
 		videoId: null,
 		enableComments: true
 	},
@@ -43,7 +43,7 @@ const tripData = [
 		photoUrls: ['glassBeach.jpg', 'DenaliBackpacking.jpg', 'glassBeach.jpg'],
 		textFile: 'alaska2018.md',
 		summaryText: 'Bushwacked for miles through Denali National Park',
-		expenseImage: 'alaskaExpenses.png',
+		expenseImage: null,
 		videoId: null,
 		enableComments: true
 	},
@@ -55,7 +55,7 @@ const tripData = [
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'laos2018.md',
 		summaryText: 'Explored the many waterfalls, rivers and cave systems',
-		expenseImage: 'laosExpenses.png',
+		expenseImage: null,
 		videoId: 'XEvDEIsByWw',
 		enableComments: true
 	},
@@ -236,6 +236,18 @@ const tripData = [
 		textFile: 'bolivia.md',
 		summaryText: 'Road tripped through Mars on Earth',
 		expenseImage: null,
+		videoId: 'ICr3fDKDE6Q',
+		enableComments: true
+	},
+	{
+		id: 21,
+		title: 'Chile & Patagonia',
+		date: 'Feburary 26, 2020 - March 24, 2020',
+		imgName: 'chile_opt.jpg',
+		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
+		textFile: 'chile.md',
+		summaryText: 'Sandboarded and hiked through this mountainous country',
+		expenseImage: 'chile_expenses.jpg',
 		videoId: 'ICr3fDKDE6Q',
 		enableComments: true
 	}

@@ -73,7 +73,7 @@ class Destination extends React.Component {
 		) : null;
 
 		const expenseGraphic = () => (expenseImage !== 'null' && expenseImage !== 'undefined') ? (
-			<img className="spreadsheet" src={`${publicImagePath}/expenses/${expenseImage}`} alt="breakdown of expenses" />
+			<img className="spreadsheet" src={`${publicImagePath}/expenses/${expenseImage}`} alt="expense breakdown" />
 		) : null;
 
 		return (
@@ -85,22 +85,23 @@ class Destination extends React.Component {
 						{date !== 'null' ? <p className="post-date">{date}</p> : null}
 						{enableComments === 'true' ? <Disqus.CommentCount shortname={disqusShortname} config={disqusConfig}></Disqus.CommentCount> : null}
 						<div className="summary-section">
-							<div className="clear-box"></div>
-							{expenseGraphic()}
+							{/* <div className="clear-box"></div>
+							{expenseGraphic()} */}
 							<div className="trip-text">
 								<ReactMarkdown source={this.state.markdown} escapeHtml={false} transformImageUri={uri => uri.startsWith("http") ? uri : `${publicImagePath}${uri}`} />
 							</div>
 						</div>
-						{youtubeVideo()}
+						{expenseGraphic()}
 						{/* <div className="expenses-section">
 							<h2 id="expenses">Expenses</h2>
 							<div className="trip-expenses">
-								<img className="spreadsheet" align="middle" src={`${publicImagePath}/nzExpenses.png`} alt="breakdown of expenses" />
+								{expenseGraphic()}
 								<span className="trip-text">
 									<ReactMarkdown source={this.state.expensesMarkdown} escapeHtml={false} />
 								</span>
 							</div>
 						</div> */}
+						{youtubeVideo()}
 						{enableComments === 'true' ? <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} /> : null}
 					</div>
 				</div>
