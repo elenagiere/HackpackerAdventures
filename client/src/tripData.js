@@ -247,7 +247,7 @@ const tripData = [
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'chile.md',
 		summaryText: 'Sandboarded and hiked through this mountainous country',
-		expenseImage: 'chile_expenses.jpg',
+		expenseImage: 'chile_expenses_opt.jpg',
 		videoId: 'ICr3fDKDE6Q',
 		enableComments: true
 	}
