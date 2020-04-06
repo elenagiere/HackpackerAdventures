@@ -79,7 +79,7 @@ const tripData = [
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'bajaCaliforniaMexico.md',
 		summaryText: 'Relaxed on beautiful beaches and devoured delicious tacos',
-		expenseImage: null,
+		expenseImage: 'mexicoX_opt.png',
 		videoId: 'T_ziz7DzG2A',
 		enableComments: true
 	},
@@ -91,7 +91,7 @@ const tripData = [
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'mexicoCity.md',
 		summaryText: 'Walked through  museums, cathedrals, and even ancient pyramids',
-		expenseImage: null,
+		expenseImage: 'mexicoX_opt.png',
 		videoId: 'T_ziz7DzG2A',
 		enableComments: true
 	},
@@ -103,7 +103,7 @@ const tripData = [
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'oaxacaMexico.md',
 		summaryText: 'Ate our way around this beautiful, mountainous region',
-		expenseImage: null,
+		expenseImage: 'mexicoX_opt.png',
 		videoId: 'T_ziz7DzG2A',
 		enableComments: true
 	},
@@ -127,7 +127,7 @@ const tripData = [
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'yucatan.md',
 		summaryText: 'Splashed into a number of lagoons, cenotes, and oceans',
-		expenseImage: null,
+		expenseImage: 'mexicoX_opt.png',
 		videoId: 'T_ziz7DzG2A',
 		enableComments: true
 	},
@@ -139,7 +139,7 @@ const tripData = [
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'belize.md',
 		summaryText: 'Snorkeled alongside turtles, sharks, and manatees',
-		expenseImage: null,
+		expenseImage: 'belizeX_opt.png',
 		videoId: 'ZN8QzMAgQcc',
 		enableComments: true
 	},
@@ -151,7 +151,7 @@ const tripData = [
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'guatemala.md',
 		summaryText: 'Fulfilled our adventurous nature with caves, rivers, lakes and erupting volcanos',
-		expenseImage: null,
+		expenseImage: 'guatemalaX_opt.png',
 		videoId: 'ZN8QzMAgQcc',
 		enableComments: true
 	},
@@ -163,7 +163,7 @@ const tripData = [
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'elSalvador.md',
 		summaryText: 'Surfed the Pacific waves and stuffed our faces with pupusas',
-		expenseImage: null,
+		expenseImage: 'elSalvadorX_opt.png',
 		videoId: 'IlSz6vEHd58',
 		enableComments: true
 	},
@@ -175,7 +175,7 @@ const tripData = [
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'nicaragua.md',
 		summaryText: 'Enjoyed the land of coffee, treehouses, and canyons',
-		expenseImage: null,
+		expenseImage: 'nicaraguaX_opt.png',
 		videoId: 'IlSz6vEHd58',
 		enableComments: true
 	},
@@ -187,7 +187,7 @@ const tripData = [
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'costarica.md',
 		summaryText: 'Meandered through mystic cloud forests, rain forests, and dry forests',
-		expenseImage: null,
+		expenseImage: 'costaRicaX_opt.png',
 		videoId: 'upJmacEjONk',
 		enableComments: true
 	},
@@ -199,7 +199,7 @@ const tripData = [
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'panama.md',
 		summaryText: 'Experienced the contrast of the big city and the tiny island villages of Panama',
-		expenseImage: null,
+		expenseImage: 'panamaX_opt.png',
 		videoId: 'upJmacEjONk',
 		enableComments: true
 	},
@@ -211,7 +211,7 @@ const tripData = [
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'colombia.md',
 		summaryText: 'Soaked in the sunshine, colorful murals, family & friends',
-		expenseImage: null,
+		expenseImage: 'colombiaX_opt.png',
 		videoId: 'XW8JcYTvaKI',
 		enableComments: true
 	},
@@ -223,7 +223,7 @@ const tripData = [
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'peru.md',
 		summaryText: 'Trudged through the rains to Machu Picchu and beyond',
-		expenseImage: null,
+		expenseImage: 'peruX_opt.png',
 		videoId: 'XW8JcYTvaKI',
 		enableComments: true
 	},
@@ -235,7 +235,7 @@ const tripData = [
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'bolivia.md',
 		summaryText: 'Road tripped through Mars on Earth',
-		expenseImage: null,
+		expenseImage: 'boliviaX_opt.png',
 		videoId: 'ICr3fDKDE6Q',
 		enableComments: true
 	},
@@ -247,7 +247,7 @@ const tripData = [
 		photoUrls: ['waterfall.jpg', 'waterfall.jpg'],
 		textFile: 'chile.md',
 		summaryText: 'Sandboarded and hiked through this mountainous country',
-		expenseImage: 'chile_expenses_opt.jpg',
+		expenseImage: 'chileX_opt.png',
 		videoId: 'ICr3fDKDE6Q',
 		enableComments: true
 	}
