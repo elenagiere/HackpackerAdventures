@@ -3,7 +3,7 @@ import Banner from './Banner.jsx';
 import { publicImagePath } from '../Constants.js';
 import YouTube from 'react-youtube';
 import ReactMarkdown from 'react-markdown';
-import Disqus from 'disqus-react';
+// import Disqus from 'disqus-react';
 
 class Destination extends React.Component {
 
@@ -45,12 +45,12 @@ class Destination extends React.Component {
 		// photoUrls.split(',').map((url, i) => (<img key={i} className="sub-section" src={`${imagePath}/${url}`} alt="img" />));
 
 		// Disqus comments
-		const disqusShortname = 'hackpackeradventures';
-		const disqusConfig = {
-			url: `https://www.hackpackeradventures.com/${this.props.location.pathname}`,
-			identifier: `disqusId-${id}`,
-			title: title,
-		};
+		// const disqusShortname = 'hackpackeradventures';
+		// const disqusConfig = {
+		// 	url: `https://www.hackpackeradventures.com/${this.props.location.pathname}`,
+		// 	identifier: `disqusId-${id}`,
+		// 	title: title,
+		// };
 
 		const videoOpts = {
 			height: '390',
@@ -83,7 +83,7 @@ class Destination extends React.Component {
 					<div className="destination-content">
 						<h1>{title}</h1>
 						{date !== 'null' ? <p className="post-date">{date}</p> : null}
-						{enableComments === 'true' ? <Disqus.CommentCount shortname={disqusShortname} config={disqusConfig}></Disqus.CommentCount> : null}
+						{/* {enableComments === 'true' ? <Disqus.CommentCount shortname={disqusShortname} config={disqusConfig}></Disqus.CommentCount> : null} */}
 						<div className="summary-section">
 							{/* <div className="clear-box"></div>
 							{expenseGraphic()} */}
@@ -102,7 +102,7 @@ class Destination extends React.Component {
 							</div>
 						</div> */}
 						{youtubeVideo()}
-						{enableComments === 'true' ? <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} /> : null}
+						{/* {enableComments === 'true' ? <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} /> : null} */}
 					</div>
 				</div>
 			</div>
